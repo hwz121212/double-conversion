@@ -32,7 +32,7 @@
 #include <string.h>
 #include <inttypes.h>
 
-#include "double-conversion/utils.h"
+#include "utils.h"
 
 #ifndef TEST
 #define TEST(Name)                                                       \

@@ -28,8 +28,8 @@
 #include <stdlib.h>
 
 #include "cctest.h"
-#include "double-conversion/diy-fp.h"
-#include "double-conversion/utils.h"
+#include "diy-fp.h"
+#include "utils.h"
 
 
 using namespace double_conversion;

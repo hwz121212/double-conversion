@@ -27,14 +27,14 @@
 
 #include <stdlib.h>
 
-#include "double-conversion/double-conversion.h"
+#include "double-conversion.h"
 
 #include "cctest.h"
 #include "gay-fixed.h"
 #include "gay-precision.h"
 #include "gay-shortest.h"
 #include "gay-shortest-single.h"
-#include "double-conversion/ieee.h"
+#include "ieee.h"
 
 
 using namespace double_conversion;

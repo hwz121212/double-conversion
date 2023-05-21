@@ -29,9 +29,9 @@
 #include <limits>
 
 #include "cctest.h"
-#include "double-conversion/diy-fp.h"
-#include "double-conversion/utils.h"
-#include "double-conversion/ieee.h"
+#include "diy-fp.h"
+#include "utils.h"
+#include "ieee.h"
 
 
 using namespace double_conversion;

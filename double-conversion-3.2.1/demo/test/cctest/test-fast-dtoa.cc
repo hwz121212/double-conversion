@@ -28,13 +28,13 @@
 #include <stdlib.h>
 
 #include "cctest.h"
-#include "double-conversion/diy-fp.h"
-#include "double-conversion/fast-dtoa.h"
+#include "diy-fp.h"
+#include "fast-dtoa.h"
 #include "gay-precision.h"
 #include "gay-shortest.h"
 #include "gay-shortest-single.h"
-#include "double-conversion/ieee.h"
-#include "double-conversion/utils.h"
+#include "ieee.h"
+#include "utils.h"
 
 using namespace double_conversion;
 
