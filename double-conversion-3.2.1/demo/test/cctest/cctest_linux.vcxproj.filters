@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{dc2edaef-5bf0-4acf-8774-612b4e338640}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cctest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gay-fixed.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gay-precision.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gay-shortest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gay-shortest-single.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-bignum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-bignum-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-conversions.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-diy-fp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-fast-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-fixed-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-ieee.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test-strtod.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cctest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="checks.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gay-fixed.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gay-precision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gay-shortest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gay-shortest-single.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
