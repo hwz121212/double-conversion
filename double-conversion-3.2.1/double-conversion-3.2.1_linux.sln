@@ -11,8 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdouble-conversion", "thi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cctest", "demo\test\cctest\cctest_linux.vcxproj", "{849211A0-8C01-4C2B-A528-79DDF1223E0A}"
 	ProjectSection(ProjectDependencies) = postProject
-		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+		{01D0A2E9-8950-4B61-B13C-7A077D47C120} = {01D0A2E9-8950-4B61-B13C-7A077D47C120}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "double-conversion", "thirdparty\double-conversion-3.2.1\double-conversion_linux.vcxproj", "{01D0A2E9-8950-4B61-B13C-7A077D47C120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,10 @@ Global
 		{849211A0-8C01-4C2B-A528-79DDF1223E0A}.Debug|x64.Build.0 = Debug|x64
 		{849211A0-8C01-4C2B-A528-79DDF1223E0A}.Release|x64.ActiveCfg = Release|x64
 		{849211A0-8C01-4C2B-A528-79DDF1223E0A}.Release|x64.Build.0 = Release|x64
+		{01D0A2E9-8950-4B61-B13C-7A077D47C120}.Debug|x64.ActiveCfg = Debug|x64
+		{01D0A2E9-8950-4B61-B13C-7A077D47C120}.Debug|x64.Build.0 = Debug|x64
+		{01D0A2E9-8950-4B61-B13C-7A077D47C120}.Release|x64.ActiveCfg = Release|x64
+		{01D0A2E9-8950-4B61-B13C-7A077D47C120}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{791642ED-9E59-4F42-927B-3562F869D9C1} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 		{849211A0-8C01-4C2B-A528-79DDF1223E0A} = {9A781B7B-4B89-4276-BCC2-F510F2E86956}
+		{01D0A2E9-8950-4B61-B13C-7A077D47C120} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}

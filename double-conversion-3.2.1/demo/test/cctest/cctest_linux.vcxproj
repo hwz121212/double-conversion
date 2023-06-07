@@ -71,26 +71,26 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\double-conversion-3.2.1\include;/root/projects/libdouble-conversion/include/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\double-conversion-3.2.1\include;/root/projects/double-conversion/include/</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <LibraryDependencies>
       </LibraryDependencies>
-      <AdditionalDependencies>/root/lib/$(Configuration)/libdouble-conversion.a;</AdditionalDependencies>
+      <AdditionalDependencies>/root/bin/$(Configuration)/double-conversion.so</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\double-conversion-3.2.1\include;/root/projects/libdouble-conversion/include/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\double-conversion-3.2.1\include;/root/projects/double-conversion/include/</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <LibraryDependencies>
       </LibraryDependencies>
-      <AdditionalDependencies>/root/lib/$(Configuration)/libdouble-conversion.a;</AdditionalDependencies>
+      <AdditionalDependencies>/root/bin/$(Configuration)/double-conversion.so</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
